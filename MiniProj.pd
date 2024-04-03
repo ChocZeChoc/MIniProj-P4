@@ -1,4 +1,4 @@
-#N canvas 952 0 958 956 12;
+#N canvas -265 57 1920 966 12;
 #X obj 730 405 hsl 162 19 0 24 0 0 empty empty empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X floatatom 727 429 5 0 0 0 - - - 0;
 #X floatatom 765 479 5 0 0 0 - - - 0;
@@ -27,7 +27,7 @@
 #X obj 409 473 readsf~ 2;
 #X obj 452 597 dac~;
 #X floatatom 497 491 5 0 1 0 - - - 0;
-#X msg 370 403 open MIniproj/Wave.wav;
+#X msg 370 403 open Wave.wav;
 #X connect 0 0 1 0;
 #X connect 1 0 3 0;
 #X connect 1 0 6 0;
