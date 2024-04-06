@@ -171,8 +171,8 @@
 #X msg 630 1016 open TalkDone.wav;
 #X msg 627 81 open Wind.wav;
 #X obj 627 56 metro 32000;
-#X obj 630 1117 s~ lt;
-#X obj 660 1117 s~ rt;
+#X obj 628 1117 s~ lt;
+#X obj 658 1117 s~ rt;
 #X obj 627 783 s~ lp;
 #X obj 664 783 s~ rp;
 #X obj 627 182 s~ lwi;
